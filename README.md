@@ -10,10 +10,32 @@ pinned: false
 
 # MLOps Hiring Backend API
 
-FastAPI backend serving hiring probability predictions.
+Production-ready FastAPI backend serving hiring probability predictions.
 
-## Endpoint
+## Tech Stack
+
+- FastAPI
+- Scikit-learn
+- MongoDB Atlas (Cloud)
+- Docker
+- HuggingFace Spaces
+- GitHub Actions (CI/CD)
+
+## Live Endpoint
 
 POST /predict
 
-Deployed automatically from GitHub via CI/CD.
+Backend deployed on HuggingFace Spaces.
+
+## Features
+
+- Trained ML model (class imbalance handled)
+- Probability-based predictions
+- Cloud database logging
+- Secret management via environment variables
+- Fully containerized
+- Automated deployment via GitHub Actions
+
+## Architecture
+
+See [meta repository](https://github.com/rsquaredata/mlops-hiring) for full system architecture.
