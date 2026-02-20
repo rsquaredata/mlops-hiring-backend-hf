@@ -5,7 +5,11 @@ import numpy as np
 import os
 from pymongo import MongoClient
 
-app = FastAPI()
+app = FastAPI(
+    title="MLOps Hiring API",
+    docs_url="/",
+    redoc_url=None
+)
 
 # Load model
 model = joblib.load("model.pkl")
