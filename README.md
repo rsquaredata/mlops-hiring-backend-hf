@@ -1,3 +1,13 @@
+---
+title: MLOps Hiring Backend
+emoji: ⚡
+colorFrom: blue
+colorTo: green
+sdk: docker
+app_file: app.py
+pinned: false
+---
+
 # MLOps Hiring Backend API
 
 FastAPI backend serving hiring probability predictions.
@@ -6,4 +16,4 @@ FastAPI backend serving hiring probability predictions.
 
 POST /predict
 
-Deployed on HuggingFace Spaces.
+Deployed automatically from GitHub via CI/CD.
